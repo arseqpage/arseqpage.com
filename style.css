@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    min-height: 200vh;
+}
+
+.page {
+    z-index: 2;
+    padding: 50px 0;
+}
+
+.ava {
+    width: 500px;
+}
+
+.certif-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificates img {
+    width: 500px;
+    margin-top: 30px;
+}
+
+textPath {
+    z-index: 0;
+    fill: ghostwhite;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textPath:nth-child(1) {
+    font-size: 30px;
+}
+
+textPath:nth-child(2) {
+    font-size: 30px;
+}
+
+textPath:nth-child(3) {
+    font-size: 30px;
+}
+
+svg {
+    position: fixed;
+}
+
+.hide {
+    display: none;
+}
