@@ -7,13 +7,22 @@ body {
     min-height: 200vh;
 }
 
+section {
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 6px 7px 0 #000;
+}
+
 .page {
     z-index: 2;
-    padding: 50px 0;
+    padding: 30px 10px;
 }
 
 .ava {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
 }
 
 .certif-items {
